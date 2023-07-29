@@ -9,13 +9,13 @@ body {
   }
   
 .navbar {
-    background-color: rgb(0, 0, 0);
+    background-color: black !important ;
     
 
 }
 
 .navbar li a {
-    color:  rgb(34, 8, 230);
+    color: white !important;
     font-size: 1.2rem;
     letter-spacing: 1px;
     margin: 0 10px;
@@ -24,7 +24,7 @@ body {
 }
 
 .navbar li a:hover {
-    color:  rgb(0, 0, 0) !important;
+    color: rgb(209, 88, 8) !important;
     font-size: 1.2rem;
     letter-spacing: 1px;
     font-weight: bold;
@@ -33,7 +33,7 @@ body {
 }
 
 .navbar-brand {
-    color:  rgb(50, 13, 239);
+    color:  white !important;
     font-size: 1.5rem;
     letter-spacing: 1px;
     
@@ -82,9 +82,7 @@ body {
     
 }
 
-.col-sm-8 h1{
 
-}
 
 
  /* #mainBox {
@@ -100,11 +98,11 @@ body {
 #mainBox h1 {
    
    
-    font-size: 6rem;
+    font-size: 5rem;
     color: rgb(26, 26, 27);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 220px;
-    padding-left: 250px;
+    padding-left:5px;
     text-align: center;
 }
 
