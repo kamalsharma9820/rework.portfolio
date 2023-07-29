@@ -1,0 +1,497 @@
+/* navbar */
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    background: url("https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif") no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+.navbar {
+    background-color: rgb(0, 0, 0);
+    
+
+}
+
+.navbar li a {
+    color:  rgb(34, 8, 230);
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin: 0 10px;
+    
+
+}
+
+.navbar li a:hover {
+    color:  rgb(0, 0, 0) !important;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin: 0 10px;
+    
+}
+
+.navbar-brand {
+    color:  rgb(50, 13, 239);
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    
+    
+
+}
+
+#aboutMe p {
+    font-size: 1rem;
+
+}
+
+/* Assuming this CSS is added to your existing CSS file */
+
+/* Center the content in the row */
+.row.justify-content-center.align-items-center {
+    height: 100vh;
+  }
+  
+  /* Style the about description content */
+  .about-desc-content {
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Style the h1 and p elements inside the about description */
+  .about-desc-content h1,
+  .about-desc-content p {
+    color: white;
+    font-weight: bold;
+  }
+  
+
+/* main content  */
+
+
+.jumbotron {
+    height: 100vh;
+    background: url("/images/gif.gif");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    box-shadow: 1px 1px 5px rgba(245, 240, 240, 0.966);
+    background-position: center;
+}
+
+ /* #mainBox {
+     height: 100%; 
+     margin: 0;
+     padding: 0;
+}   */
+
+/* #mainBox h1 h3 {
+    padding-top: 100px !important;
+} */
+
+#mainBox h1 {
+   
+   
+    font-size: 6rem;
+    color: seashell;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 220px;
+    padding-left: 250px;
+    text-align: center;
+}
+
+#mainBox h3 {
+    /* margin: auto 0 auto 25px; */
+    font-size: 2rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+ 
+
+
+/* About Me  */
+
+/* CSS for the image element */
+.about-img {
+    /* Make the image responsive, so it scales with the container */
+    max-width: 1000%;
+    height: auto;
+  }
+  
+  /* Apply the fadeInUp animation */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(50px); /* Move the image 20 pixels down from its original position */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); /* Move the image back to its original position */
+    }
+  }
+  
+  /* Apply the fadeInUp animation to the element with the "wow" class */
+  .wow {
+    visibility: hidden; /* Hide the element initially */
+  }
+  
+  /* Add the fadeInUp animation duration */
+  [data-wow-duration] {
+    animation-duration: 1s; /* Change the duration as needed */
+    animation-fill-mode: both;
+  }
+  
+
+
+.about pic{
+height: 2000px;
+}
+
+
+.about-content {
+    position: relative;
+    padding: 50px 0;
+  }
+  
+  .about-content::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 25, 25, 0.927);
+    z-index: -1;
+  }
+  
+  .about-content h1 {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .about-content p {
+    color: white;
+    font-weight: bold;
+  }
+  
+
+#aboutMe {
+    margin-top: 75px;
+}
+
+#aboutMe p {
+    padding-left: 0;
+    padding-top: 50px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+    
+}
+.img{
+    padding-right: 2000px;
+    text-align: left;
+    align-items: left;
+    align-items: left;
+ 
+}
+
+#aboutMe h4 {
+    text-decoration-line: underline;
+    text-decoration-color: rgb(255, 255, 255);
+}
+
+#aboutMe span {
+    float: left;
+}
+
+/* EDUCATION  */
+
+#edu {
+    padding-top: 70px;
+}
+
+.container h2 {
+    color: #ffffff;
+    padding: 0px 0px 20px 20px;
+}
+
+#col {
+    padding: 0px 30px;
+    border-left: 2px solid #bababa; /* Corrected the border-left syntax */
+}
+
+.box {
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: rgba(26, 25, 25, 0.927);
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.box:hover {
+    box-shadow: 0px 3px 12px 0px rgb(255, 255, 255);
+    border: 1px solid transparent;
+}
+
+
+ .box::before {
+    content: '';
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    right: calc(100% + 220px);
+    top: 0;
+    background-color: #145ece;
+    border: 2px solid white;
+} 
+
+/* skills section  */
+
+#skill-section {
+    width: 100%;
+    height: auto;
+    padding: 80px 13%;
+    background-color: rgba(26, 25, 25, 0.927);
+  }
+  
+  #skill-section h2 {
+    color: white;
+    font-weight: bold;
+  }
+  
+  #skill-section p {
+    color: white;
+    font-weight: bold;
+  }
+  
+
+.header {
+    width: 100%;
+    margin-bottom: 70px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.header h2 {
+    margin-bottom: -5px;
+}
+
+.header h2 span {
+    color: rgb(248, 245, 244);
+}
+
+.skills-main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 20px;
+}
+
+.skills-main .skills-bar .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.skills-bar .info .percent {
+    font-weight: bold;
+}
+
+.skills-bar .bar {
+    width: 100%;
+    height: 10px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    margin-top: 5px;
+}
+
+.skills-bar .bar span {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(39, 31, 201);
+    border-radius: 25px;
+}
+
+/* animation for skills  */
+
+.skills-bar .bar .html {
+    width: 60%;
+    animation: html 3s;
+}
+
+@keyframes html {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+.skills-bar .bar .css {
+    width: 50%;
+    animation: css 3s;
+}
+
+@keyframes css {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
+.skills-bar .bar .bootstrap {
+    width: 35%;
+    animation: bootstrap 3s;
+}
+
+@keyframes bootstrap {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 50%;
+    }
+}
+
+.skills-bar .bar .git-hub {
+    width: 50%;
+    animation: git-hub 3s;
+}
+
+@keyframes git-hub {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 50%;
+    }
+}
+
+.skills-bar .bar .javascrript {
+    width: 30%;
+    animation: javascrript 3s;
+}
+
+@keyframes javascrript {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 30%;
+    }
+}
+
+.skills-bar .bar .java {
+    width: 30%;
+    animation: java 3s;
+}
+
+@keyframes java {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 30%;
+    }
+}
+
+.skills-bar .bar .git {
+    width: 45%;
+    animation: git 3s;
+}
+
+@keyframes git {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 50%;
+    }
+}
+
+.skills-bar .bar .command-line {
+    width: 50%;
+    animation: command-line 3s;
+}
+
+@keyframes command-line {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+/* animation end  */
+
+
+
+/* cards */
+
+ #reviews .card {
+    margin-top: 30px;
+    
+} 
+
+#reviews {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#reviews h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(29, 83, 231);
+    color: #ffffff;
+}
+
+.card:hover {
+    box-shadow: 0px 3px 12px 0px #5f3e3e;
+    border: 1px solid transparent;
+}
+/* footer */
+
+#footer {
+    background-color: rgba(26, 25, 25, 0.927);
+    margin-top: 100px;
+    
+}
+
+#contact a {
+    font-size: 2rem;
+    margin: auto;
+    color: white;
+    margin: 2px;
+    
+}
+
+#contact a :hover {
+    color: rgb(69, 29, 231)!important;
+    
+}
+
+
+#contact p{
+    color: #ffffff;
+} 
+
