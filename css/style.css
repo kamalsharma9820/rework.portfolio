@@ -62,8 +62,10 @@ body {
   /* Style the h1 and p elements inside the about description */
   .about-desc-content h1,
   .about-desc-content p {
-    color: white;
+    color: rgb(242, 233, 233);
     font-weight: bold;
+    
+    
   }
   
 
@@ -72,12 +74,18 @@ body {
 
 .jumbotron {
     height: 100vh;
-    background: url("/images/gif.gif");
+    background: url("/css/top\ pic.jpeg");
     background-repeat: no-repeat; 
     background-size: cover;
-    box-shadow: 1px 1px 5px rgba(245, 240, 240, 0.966);
+    box-shadow: 1px 1px 5px rgb(250, 246, 246);
     background-position: center;
+    
 }
+
+.col-sm-8 h1{
+
+}
+
 
  /* #mainBox {
      height: 100%; 
@@ -93,7 +101,7 @@ body {
    
    
     font-size: 6rem;
-    color: seashell;
+    color: rgb(26, 26, 27);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 220px;
     padding-left: 250px;
@@ -103,7 +111,7 @@ body {
 #mainBox h3 {
     /* margin: auto 0 auto 25px; */
     font-size: 2rem;
-    color: white;
+    color: rgb(12, 13, 13);
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -113,42 +121,10 @@ body {
 
 /* About Me  */
 
-/* CSS for the image element */
-.about-img {
-    /* Make the image responsive, so it scales with the container */
-    max-width: 1000%;
-    height: auto;
-  }
-  
-  /* Apply the fadeInUp animation */
-  @keyframes fadeInUp {
-    from {
-      opacity: 0;
-      transform: translateY(50px); /* Move the image 20 pixels down from its original position */
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0); /* Move the image back to its original position */
-    }
-  }
-  
-  /* Apply the fadeInUp animation to the element with the "wow" class */
-  .wow {
-    visibility: hidden; /* Hide the element initially */
-  }
-  
-  /* Add the fadeInUp animation duration */
-  [data-wow-duration] {
-    animation-duration: 1s; /* Change the duration as needed */
-    animation-fill-mode: both;
-  }
-  
-
-
-.about pic{
-height: 2000px;
+.col-md-5 img{
+    height: 700px;
+    right: 200px;
 }
-
 
 .about-content {
     position: relative;
