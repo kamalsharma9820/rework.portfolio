@@ -4,9 +4,11 @@ body {
     padding: 0;
     overflow-x: hidden;
     font-family: Arial, sans-serif;
-    background: url("https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif") no-repeat center center fixed;
+    background: url("/css/IrF.gif"); 
     background-size: cover;
   }
+
+
   
 .navbar {
     background-color: black !important ;
@@ -70,6 +72,11 @@ body {
   
 
 /* main content  */
+
+
+.jumbotron img{
+    height: 20px;
+}
 
 
 .jumbotron {
@@ -144,7 +151,7 @@ body {
     color: white;
     font-weight: bold;
   }
-  
+
   .about-content p {
     color: white;
     font-weight: bold;
@@ -166,11 +173,18 @@ body {
    
     
 }
-.img{
-    padding-right: 2000px;
+.imgs{
+    
+    top: auto;
+    margin-top: 10px;
+    padding-right: 10px;
     text-align: left;
     align-items: left;
     align-items: left;
+    height: auto;
+    
+    
+
  
 }
 
