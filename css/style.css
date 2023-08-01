@@ -89,19 +89,6 @@ body {
     
 }
 
-
-
-
- /* #mainBox {
-     height: 100%; 
-     margin: 0;
-     padding: 0;
-}   */
-
-/* #mainBox h1 h3 {
-    padding-top: 100px !important;
-} */
-
 #mainBox h1 {
    
    
@@ -129,6 +116,7 @@ body {
 .col-md-5 img{
     height: 700px;
     right: 200px;
+    padding-bottom: -10%;
 }
 
 .about-content {
@@ -182,10 +170,12 @@ body {
     align-items: left;
     align-items: left;
     height: auto;
+    width:auto ;
+    
+    
     
     
 
- 
 }
 
 #aboutMe h4 {
